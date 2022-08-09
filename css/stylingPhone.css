@@ -17,7 +17,13 @@
     font-size: 20px;
     width: 50%;
   }
-
+  #resume-download,
+  #contact-me-form {
+    font-size: 15px;
+  }
+  #resume-download span {
+    padding-top: 5px;
+  }
   #job-title p {
     width: 200;
     font-size: 15px;
@@ -36,8 +42,8 @@
 
   .wrapper2 {
     display: grid;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 380px;
+    min-width: 380px;
     margin: 0;
     padding: 0;
     padding-top: 30px;
@@ -122,7 +128,14 @@
   #education .wrapper3 {
     padding: 0;
     margin: 0;
-    width: 400px;
+    width: 390px;
     font-size: 10px;
+  }
+  .education-card div:nth-child(3),
+  .education-card div:nth-child(4),
+  .education-card div:nth-child(5),
+  .education-card div:nth-child(6) {
+    margin: 0;
+    padding-left: 10px;
   }
 }
