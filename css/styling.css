@@ -122,16 +122,20 @@ header a:hover {
   justify-content: center;
   line-height: 2.1em;
 }
-#download-pic {
-  padding-top: 9px;
-  margin-right: 9px;
-}
+
 #resume-download:hover,
 #contact-me-form:hover {
   color: rgb(234, 186, 169);
   background-color: rgb(48, 34, 31);
 }
 
+#resume-download a{
+  padding: 0;
+  margin-top: -6px;
+}
+#resume-download #download-pic {
+  padding-top: 10px;
+}
 #about-me {
   display: flex;
   justify-content: center;
