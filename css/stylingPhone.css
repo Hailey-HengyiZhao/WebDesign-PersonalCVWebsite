@@ -1,0 +1,128 @@
+@media screen and (max-width: 400px) {
+  body {
+    margin: 0;
+    width: 50%;
+    width: 400px;
+  }
+  #about-me {
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10% 80% 10%;
+  }
+  #main-name {
+    font-size: 20px;
+    width: 50%;
+  }
+
+  #job-title p {
+    width: 200;
+    font-size: 15px;
+    margin: 0;
+    margin-left: -35%;
+  }
+
+  #two-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  #two-button-between {
+    width: 40px;
+  }
+
+  .wrapper2 {
+    display: grid;
+    max-width: 400px;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: 10% 30% 50% 10%;
+    grid-gap: 10px;
+    font-size: 12px;
+  }
+
+  .wrapper2 #table-title-about-me {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+    padding-left: 0;
+  }
+  .wrapper2 #declaration {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 2;
+    padding-left: 0;
+  }
+  .wrapper2 #table-title-basic-information {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3;
+  }
+  .wrapper2 #table-name-header {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .wrapper2 #table-name-value {
+    grid-column: 3;
+    grid-row: 4;
+  }
+  .wrapper2 #table-email-header {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .wrapper2 #table-email-value {
+    grid-column: 3;
+    grid-row: 5;
+  }
+  .wrapper2 #table-course-header {
+    grid-column: 2;
+    grid-row: 6;
+  }
+  .wrapper2 #table-course-value {
+    grid-column: 3;
+    grid-row: 6;
+  }
+  .wrapper2 #table-section-header {
+    grid-column: 2;
+    grid-row: 7;
+  }
+  .wrapper2 #table-section-value {
+    grid-column: 3;
+    grid-row: 7;
+  }
+  .wrapper2 #table-sid-header {
+    grid-column: 2;
+    grid-row: 8;
+  }
+  .wrapper2 #table-sid-value {
+    grid-column: 3;
+    grid-row: 8;
+  }
+  .wrapper2 #table-ins-header {
+    grid-column: 2;
+    grid-row: 9;
+  }
+  .wrapper2 #table-ins-value {
+    grid-column: 3;
+    grid-row: 9;
+  }
+
+  #education {
+    width: 50%;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  #education .wrapper3 {
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    font-size: 10px;
+  }
+}
