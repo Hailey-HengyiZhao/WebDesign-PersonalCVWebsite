@@ -1,15 +1,15 @@
 /* Rubik font-family: 'Rubik', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 /* Roboto font-family: 'Roboto', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 /* Anton  font-family: 'Anton', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&family=Rubik:wght@300&display=swap");
 
 html {
   min-width: 990px;
   margin-right: 0;
   margin-left: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -78,7 +78,7 @@ header a:hover {
 }
 
 #main-name {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   color: rgb(255, 201, 22);
   font-size: 3em;
   letter-spacing: 5px;
@@ -88,7 +88,7 @@ header a:hover {
 
 #job-title {
   min-width: 500px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 25px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -110,7 +110,7 @@ header a:hover {
   height: 50px;
   width: 150px;
   font-size: 20px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   letter-spacing: 1px;
   background-color: rgb(50, 50, 50);
   color: rgb(225, 173, 0);
@@ -129,7 +129,7 @@ header a:hover {
   background-color: rgb(48, 34, 31);
 }
 
-#resume-download a{
+#resume-download a {
   padding: 0;
   margin-top: -6px;
 }
@@ -159,7 +159,7 @@ time {
   padding-bottom: 50px;
   padding-top: 50px;
   font-size: 1.2em;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .wrapper2 #table-title-about-me {
@@ -249,7 +249,7 @@ time {
 #education {
   background-color: black;
   margin-top: 100px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: grid;
   grid-template-columns: auto minmax(auto, 1025px) auto;
   padding-bottom: 100px;
@@ -270,7 +270,7 @@ time {
   color: black;
   margin: 0;
   padding-top: 40px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .side-header2 h2 {
@@ -278,7 +278,7 @@ time {
   justify-content: center;
   font-size: 2em;
   padding-top: 50px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .education-card {
@@ -325,7 +325,7 @@ time {
 
 .education-card div:nth-child(4) {
   grid-column: 2;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   color: rgb(66, 64, 60);
   opacity: 60%;
 }
@@ -379,5 +379,4 @@ footer {
 footer p {
   padding-top: 10px;
   text-align: center;
-}
 }
