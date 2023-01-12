@@ -1,0 +1,429 @@
+<!-- Your main page should go here -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hengyi Zhao Personal Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styling.css" />
+    <link rel="stylesheet" href="./css/stylingPhone.css" />
+    <!-- material icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header part-->
+    <header>
+      <a id="button-info" href="#about-me-header">About</a>
+      <a id="button-Education" href="#education-header">Education</a>
+      <a id="button-contact" href="#contact-me-header">Contact</a>
+    </header>
+
+    <!-- Main-->
+    <main>
+      <!-- Home  -->
+      <div class="wrapper">
+        <!-- Pic -->
+        <div class="col2" id="personal-img">
+          <img
+            src="./images/03BDD0D5ECF83F53C458D7AF90D11E0E.jpg"
+            alt="my-photo"
+          />
+        </div>
+
+        <!-- Name -->
+        <div class="col2"><p id="main-name">Hengyi Zhao</p></div>
+
+        <!-- Job Title -->
+        <div class="col2" id="job-title">
+          <p>Web Developer,Software Engine</p>
+        </div>
+
+        <!-- Contact me and Download Resume -->
+        <div class="col2">
+          <div id="two-button">
+            <button id="resume-download">
+              <a
+                href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HaileyZhao233/hengyi-website/blob/main/doc/Hengyi-Zhao-Resume.pdf"
+                download="Hengyi-Zhao-Resume"
+              >
+                <span id="download-pic" class="material-icons"
+                  >file_download</span
+                >
+                <span id="resume">Resume</span></a
+              >
+            </button>
+            <div id="two-button-between"></div>
+            <button id="contact-me-form">
+              <a href="#contact-me-header">Contact Me</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- About me -->
+      <div class="side-header1" id="about-me-header"><h2>About Me</h2></div>
+      <div id="about-me">
+        <div class="wrapper2">
+          <div id="table-title-about-me">
+            <h2>About Me and Academic Honesty</h2>
+          </div>
+          <div id="table-title-basic-information">
+            <h2>Basic Information</h2>
+          </div>
+
+          <div id="declaration">
+            <p>
+              I declare that my assessment is wholly my own work in accordance
+              with Seneca Academic Policy. No part of this assessment has been
+              copied manually or electronically from any other source (including
+              web sites) except for the information supplied by the WEB222
+              instructors and / or made available in this assessment for my use.
+              I also declare that no part of this assignment has been
+              distributed to other students.<br /><br />
+              <strong>Dated: </strong>
+              <time datetime="2022-08-10">2022-08-10</time>
+            </p>
+          </div>
+
+          <div id="table-name-header"><h3>Name</h3></div>
+          <div id="table-name-value">Hengyi Zhao</div>
+          <div id="table-email-header"><h3>Email</h3></div>
+          <div id="table-email-value">hzhao94@myseneca.ca</div>
+          <div id="table-course-header"><h3>Course</h3></div>
+          <div id="table-course-value">WEB 222</div>
+          <div id="table-section-header"><h3>Section</h3></div>
+          <div id="table-section-value">NEE</div>
+          <div id="table-sid-header"><h3>Student ID</h3></div>
+          <div id="table-sid-value">173484213</div>
+          <div id="table-ins-header"><h3>Instructor</h3></div>
+          <div id="table-ins-value">Noman Antique</div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="side-header2" id="education-header"><h2>Education</h2></div>
+      <div id="education">
+        <div class="wrapper3">
+          <!-- Card1 -->
+          <div class="education-card">
+            <div class="card-year">2022-2024(expected)</div>
+            <div class="card-degree-desc">Advanced Diploma</div>
+            <div class="card-degree">Computer Programming & Analysis (CPA)</div>
+            <div class="card-school">SENECA COLLEGE</div>
+            <div class="card-sup">
+              Under the supervision of <a>Dr. Awesome</a>.
+            </div>
+            <div class="card-award">
+              Awarded with all scholarships in the world.
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper3">
+          <!-- Card2 -->
+          <div class="education-card">
+            <div class="card-year">2015-2017</div>
+            <div class="card-degree-desc">Master Degree</div>
+            <div class="card-degree">Master of Applied Economics</div>
+            <div class="card-school">THE UNIVERSITY OF WINDSOR</div>
+            <div class="card-sup">
+              Under the supervision of <a>Dr. Awesome</a>.
+            </div>
+            <div class="card-award">
+              Awarded with all scholarships in the world.
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper3">
+          <!-- Card3 -->
+          <div class="education-card">
+            <div class="card-year">2010-2014</div>
+            <div class="card-degree-desc">Bachelor's Degree</div>
+            <div class="card-degree">Bachelor of Accounting in ACCA</div>
+            <div class="card-school">
+              GUANGDONG UNIVERSITY OF FINANCE AND ECONOMICS
+            </div>
+            <div class="card-sup">
+              Under the supervision of <a>Dr. Awesome</a>.
+            </div>
+            <div class="card-award">
+              Awarded with all scholarships in the world.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Me -->
+      <div class="side-header1" id="contact-me-header"><h2>Contact Me</h2></div>
+
+      <!-- Form -->
+      <div class="form-area">
+        <div class="container">
+          <form
+            id="message-form"
+            action="https://httpbin.org/post"
+            method="post"
+          >
+            <!-- roll 1 -->
+            <div class="row g-3">
+              <!-- first name -->
+              <div class="col-md-6">
+                <label for="fname"
+                  ><span class="text-danger">*</span>First Name</label
+                >
+                <input
+                  class="form-control"
+                  id="fname"
+                  name="fname"
+                  autocomplete="given-name"
+                  type="text"
+                  tabindex="1"
+                  required
+                />
+              </div>
+
+              <!-- last name -->
+              <div class="col-md-6">
+                <label for="lname"
+                  ><span class="text-danger">*</span>Last Name</label
+                >
+                <input
+                  class="form-control"
+                  id="lname"
+                  name="lname"
+                  autocomplete="family-name"
+                  type="text"
+                  tabindex="2"
+                  required
+                />
+              </div>
+            </div>
+            <!-- roll 2 -->
+            <div class="row g-3">
+              <!-- Email -->
+              <div class="col-md-6">
+                <label for="email"
+                  ><span class="text-danger">*</span>Email Address</label
+                >
+                <input
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  type="email"
+                  tabindex="3"
+                  required
+                />
+              </div>
+
+              <!--  Phone -->
+              <div class="col-md-6">
+                <label for="phone">Phone Number</label>
+                <input
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  autocomplete="tel"
+                  type="tel"
+                  tabindex="4"
+                />
+                <span class="form-text text-muted">Optional</span>
+              </div>
+            </div>
+            <!-- roll 3 -->
+            <div class="col-12">
+              <!-- Address -->
+              <label for="address" class="form-label"
+                ><span class="text-danger">*</span>Address</label
+              >
+              <input
+                id="address"
+                name="address"
+                class="form-control"
+                autocomplete="street-address"
+                type="text"
+                tabindex="5"
+                required
+              />
+            </div>
+            <!-- roll 4 -->
+            <div class="row g-3">
+              <div class="col-md-6">
+                <!-- City -->
+                <label for="city" class="form-label"
+                  ><span class="text-danger">*</span> City</label
+                >
+                <input
+                  id="city"
+                  class="form-control"
+                  name="city"
+                  autocomplete="address-level2"
+                  type="text"
+                  tabindex="6"
+                  required
+                />
+              </div>
+              <div class="col-md-3">
+                <!-- Province -->
+                <div class="form-group col">
+                  <label for="province" class="form-label"
+                    ><span class="text-danger">*</span> Province</label
+                  >
+                  <select
+                    id="province"
+                    class="form-control"
+                    name="province"
+                    autocomplete="address-level1"
+                    tabindex="7"
+                  >
+                    <option>Alberta</option>
+                    <option>British Columbia</option>
+                    <option>Manitoba</option>
+                    <option>New Brunswick</option>
+                    <option>Newfoundland and Labrador</option>
+                    <option>Northwest Territories</option>
+                    <option>Nova Scotia</option>
+                    <option>Nunavut</option>
+                    <option selected>Ontario</option>
+                    <option>Prince Edward Island</option>
+                    <option>Quebec</option>
+                    <option>Saskatchewan</option>
+                    <option>Yukon</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <!-- Postal -->
+                <div class="form-group col" class="form-label">
+                  <label for="postal-code"
+                    ><span class="text-danger">*</span> ZIP Code</label
+                  >
+                  <input
+                    id="postal-code"
+                    class="form-control"
+                    name="post-code"
+                    autocomplete="postal-code"
+                    type="text"
+                    tabindex="8"
+                    placeholder="M2J 2X5"
+                    pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Enter a valid Canadian Postal Code
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- roll 5 -->
+            <div class="row g-3">
+              <div class="col-auto">
+                <label for="question-about"
+                  ><span class="text-danger">*</span> What is about:</label
+                >
+                <!-- Question -->
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="question-about"
+                    id="about-question"
+                    value="question"
+                    tabindex="9"
+                    checked
+                  />
+                  <label class="form-check-label" for="about-question"
+                    >Question</label
+                  >
+                </div>
+                <!-- Comment -->
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="question-about"
+                    id="about-comment"
+                    value="comment"
+                    tabindex="10"
+                  />
+                  <label class="form-check-label" for="about-comment"
+                    >Comment</label
+                  >
+                </div>
+                <!-- Hiring -->
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="question-about"
+                    id="about-hiring"
+                    value="hiring"
+                    tabindex="11"
+                  />
+                  <label class="form-check-label" for="about-hiring"
+                    >Hiring</label
+                  >
+                </div>
+              </div>
+
+              <!-- occur when click hiring -->
+            </div>
+
+            <div class="col-auto">
+              <div id="hidden-hourly-rate"></div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label for="feedback-file">Message </label>
+                <textarea
+                  id="description"
+                  class="form-control"
+                  name="message"
+                  rows="10"
+                  tabindex="13"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="col-auto">
+              <input
+                class="btn btn-secondary mr-3"
+                type="reset"
+                name="reset"
+                value="Reset"
+                tabindex="16"
+              />
+
+              <input
+                class="btn btn-primary"
+                type="submit"
+                name="submit"
+                value="Submit"
+                tabindex="15"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer>
+        <p>Website Design &#169; By Hengyi Zhao</p>
+      </footer>
+    </main>
+
+    <!-- Main App JavaScript File -->
+    <script src="/js/app.js"></script>
+  </body>
+</html>
